@@ -6,3 +6,46 @@
     flex-wrap: wrap;
     gap: 10px;
 }
+
+#image1 {
+    filter: grayscale(10%); opacity(50%);
+}
+
+#image2 {
+    filter: blur(2px);
+    transition: 500ms;
+}
+
+#image2:hover {
+    filter: unset;
+}
+
+#image3 {
+    filter: invert(100%);
+}
+
+#image4 {
+    filter: hue-rotate(85deg);
+    animation: color-rotate 3s;
+    animation-interation
+}
+
+@keyframes color-rotate {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+#div1 {
+    background-color:aqua;
+    color:orange;
+    width: 200px;
+    height: 200px;
+    filter: blur: (4px);
+
+}
+
+#div2
